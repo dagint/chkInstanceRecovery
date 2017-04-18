@@ -32,7 +32,7 @@ function printStatuses () {
 			(err) console.log(err, err.stack);
 		else
 			var currentTime = new Date();
-			console.log(currentTime.toString());
+			//console.log(currentTime.toString());
 
 
 			for(var r=0,rlen=data.Reservations.length; r<rlen; r++) {
