@@ -1,6 +1,10 @@
 # chkInstanceRecovery
 Using nodejs checks to determine if ec2 autorecovery is enabled.  Script will enumerate all running instances in a specific region (defined on line 7).  Output will show instance id and true if auto recovery is enabled or false if autorecovery is NOT enabled
 
+## Reference
+How to enable instance recovery.
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/UsingAlarmActions.html#AddingRecoverActions
+
 ## Prerequisites
 - Requires node.js -> https://nodejs.org
 - Install node aws-sdk -> https://aws.amazon.com/sdk-for-node-js/
