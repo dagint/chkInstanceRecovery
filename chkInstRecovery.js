@@ -12,8 +12,6 @@ var ec2 = new AWS.EC2();
 var cw = new AWS.CloudWatch({apiVersion: '2010-08-01'});
 
 printStatuses();
-//chkRecoveryAlarm('i-0c5dc74a64f1bfee0');
-//chkRecoveryAlarm('i-0f82e0c193c86636e');
 
 function printStatuses () {
 	var params = {
